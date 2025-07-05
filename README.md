@@ -31,10 +31,9 @@ numpy
 
 You can install the required packages using:
 
-bash
-Копіювати
-Редагувати
 pip install pandas scikit-learn tqdm numpy
+
+
 File Structure
 books.jsonlines.zip: Dataset containing book metadata.
 
@@ -44,9 +43,8 @@ main.py: Main script implementing the recommendation logic.
 
 The expected relative folder structure (relative to the script location):
 
-python
-Копіювати
-Редагувати
+
+
 Data/
   yakaboo-book-reviews-dataset/
     books.jsonlines.zip
@@ -54,9 +52,7 @@ Data/
 Usage
 Run the script:
 
-bash
-Копіювати
-Редагувати
+
 python main.py
 You will be prompted to enter a book title. The program will:
 
